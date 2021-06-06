@@ -1,0 +1,115 @@
+
+@import  url('https://fonts.google.com/specimen/Lexend+Deca');
+@import url('https://fonts.google.com/specimen/Big+Shoulders+Display');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    align-items: center;
+    max-width: 750px;
+    justify-content: center;
+    margin: auto;
+    margin-top: 80px;
+}
+p{    
+font-family: 'Lexend Deca', sans-serif;
+margin-left: 25px;
+color:hsla(0, 0%, 100%, 0.75);
+margin-bottom: 60px;
+}
+.box-1{
+    background-color: hsl(31, 77%, 52%);
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+    flex-direction: column;
+    line-height: 25px;
+    border-radius: 15px 0px 0px 15px;
+    
+}
+.box-2{
+    background-color: hsl(184, 100%, 22%);
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    justify-content: space-around;
+    line-height: 25px;
+    
+}
+.box-3{
+    background-color:  hsl(179, 100%, 13%);
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    justify-content: space-around;
+    line-height: 25px;
+    border-radius: 0px 15px 15px 0px;
+}
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+    margin-left: 25px;
+    color:hsla(0, 0%, 100%, 0.75);
+}
+img{
+    height: min-content;
+    width: min-content;
+    margin-left: 25px;
+}
+button{
+    display:block;
+    border-radius: 40px;
+    height: 40px;
+    width: 150px;
+    background-color: hsla(0, 0%, 100%, 0.75);
+    border: none;
+    margin: 0px 0px 25px 25px;
+    letter-spacing: 1px;
+    
+}
+
+.btn-1{
+    color:hsl(31, 77%, 52%); 
+}
+.btn-1:hover{
+    cursor: pointer;
+    border: 2px solid hsla(0, 0%, 100%, 0.75);;
+    color: hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(31, 77%, 52%);
+    
+}
+.btn-2:hover{
+    cursor: pointer;
+    border: 2px solid hsla(0, 0%, 100%, 0.75);;
+    color: hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(184, 100%, 22%);
+}
+.btn-3:hover{
+    cursor: pointer;
+    border: 2px solid hsla(0, 0%, 100%, 0.75);;
+    color: hsla(0, 0%, 100%, 0.75);
+    background-color:hsl(179, 100%, 13%) ;
+}
+.btn-2{
+    color: hsl(184, 100%, 22%);  
+}
+.btn-3{
+    color:  hsl(179, 100%, 13%); 
+}
+@media only screen and (max-width:375px){
+    .container{
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 375px;
+    }
+    
+    
+}
